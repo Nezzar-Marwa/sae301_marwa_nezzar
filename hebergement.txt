@@ -1,0 +1,12 @@
+ip du vps:
+45.155.169.191
+
+site en http: 
+http://45.155.169.191/
+http://sae301.marwa-nezzar.fr
+
+
+site en https:
+https://sae301.marwa-nezzar.fr
+
+

@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+    .body {
+      @apply text-[16px] font-poppins text-base leading-normal;
+    }
+  
+    .h1 {
+      @apply text-[27px] font-playfair-display font-bold;
+    }
+  
+    .h2 {
+      @apply text-[15px] font-outfit;
+    }
+  
+  }
+
+  @layer components {
+
+
+    .menu-item {
+      @apply relative overflow-hidden lg:before:absolute lg:before:bottom-0 lg:before:left-0 lg:before:h-2 lg:before:w-full lg:before:translate-y-2 lg:before:bg-footer lg:before:transition-all lg:before:duration-300 lg:before:ease-in-out lg:hover:before:translate-y-0;
+    }
+
+    .grille {
+      @apply lg:grid lg:grid-cols-principal lg:justify-center lg:gap-12 px-6;
+    }
+  
+    .grille_row {
+      @apply px-6 grid grid-cols-12 justify-between gap-8;
+    }
+
+  
+    .menu-link {
+      @apply block px-3 py-4 lg:py-2;
+    }
+  
+    .ligne {
+      @apply px-6 grid grid-rows-secondary gap-12;
+    }
+
+
+  
+  }
